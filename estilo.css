@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(237, 217, 248);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;  
+}
+
+    .titulo{
+        color: rgb(52, 19, 83);
+        text-align: center;
+    }
+
+    .paragrafo{
+        font-size: 18px;
+        text-align: justify; 
+        margin-bottom: 30px;
+    }
+
+    .subtitulo{
+        color: rgb(52, 19, 83); 
+        text-align: center; 
+        font-size: 30px; 
+        margin-top: 30px;
+    }
+    
+    .lista li{
+        font-size: 17px; 
+        margin-bottom: 40px;
+    }
+
+    .meu-hobbie{
+        border-radius: 20px; 
+        margin-bottom: 25px;
+        width: 100%;
+        height: auto;
+    }
+
+    .divisao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .tabela{
+        width: 100%;
+        max-width: 900px;
+        text-align: center;
+        font-size: 18px;
+        border-collapse: collapse;  
+        color: rgb(52, 19, 83);
+        background-color: rgb(241, 228, 245);     
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabela caption{
+        font-size: 26px;
+        font-weight: bolder;
+        color: rgb(42, 12, 70);
+        background-color: rgb(204, 184, 223);
+        padding: 12px;
+    }
+
+    .tabela td{
+        padding: 12px;
+        font-size: 20px;
+        border: 1px solid rgb(197, 181, 211); 
+    }
+
+    .tabela img{
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .link{
+        font-size: 16px;
+        background-color: rgb(204, 184, 223);
+        padding: 16px 16px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: rgb(52, 19, 83);
+    }
+
+    .link:hover{
+        color: goldenrod;
+    }
+
+    #botao{
+        display: block;
+        margin: auto;
+        font-family: "Times New Roman";
+        font-weight: bolder;
+        font-size: 16px;
+        padding: 15px 15px;
+        border-radius: 8px;
+        background-color: rgb(236, 226, 240);
+        border: 1px solid rgb(197, 181, 211);
+        color: rgb(52, 19, 83);     
+    }
+
+    #botao:hover{
+        background-color: rgb(221, 205, 233);
+        cursor: pointer;
+    }
+
+    .mensagem{
+        font-size: 36px;
+        font-style: italic;
+        text-align: center;
+        color: rgb(42, 12, 70);
+    }
+
+
+
+    
+
+
+
+
+
+
+    
